@@ -3,28 +3,28 @@ import { FadeIn } from './FadeIn';
 const services = [
   {
     num: "01",
-    title: "3D Modeling",
-    desc: "Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations."
+    title: "Autonomous AI Agents",
+    desc: "Custom-built, intelligent agents designed to automate your customer support, lead generation, and internal workflows 24/7."
   },
   {
     num: "02",
-    title: "Rendering",
-    desc: "High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life."
+    title: "High-Performance Web",
+    desc: "Lightning-fast, visually stunning web applications and landing pages optimized for conversion and seamless user experiences."
   },
   {
     num: "03",
-    title: "Motion Design",
-    desc: "Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences."
+    title: "AI Software Integration",
+    desc: "Seamlessly connect powerful AI models (like OpenAI, Claude, or Gemini) into your existing software infrastructure and daily operations."
   },
   {
     num: "04",
-    title: "Branding",
-    desc: "Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence."
+    title: "Workflow Automation",
+    desc: "Eliminate manual data entry and repetitive tasks. I build custom automation pipelines that save your team hundreds of hours per month."
   },
   {
     num: "05",
-    title: "Web Design",
-    desc: "Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience."
+    title: "AI Strategy & Consulting",
+    desc: "Not sure where to start? I audit your current business processes and provide a strategic roadmap for adopting AI effectively and profitably."
   }
 ];
 
@@ -43,7 +43,7 @@ export const ServicesSection = () => {
             <div className="text-[#0C0C0C] font-black text-[clamp(3rem,10vw,140px)] leading-none w-full md:w-1/3">
               {service.num}
             </div>
-            
+
             <div className="flex flex-col justify-center gap-3 md:gap-4 w-full md:w-2/3 mt-2 md:mt-0">
               <h3 className="text-[#0C0C0C] font-medium uppercase text-[clamp(1rem,2.2vw,2.1rem)]">
                 {service.title}

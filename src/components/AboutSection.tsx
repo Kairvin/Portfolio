@@ -5,7 +5,7 @@ import { ContactButton } from './ContactButton';
 export const AboutSection = () => {
   return (
     <section id="about" className="min-h-screen flex flex-col items-center justify-center px-5 sm:px-8 md:px-10 py-20 relative bg-[#0C0C0C] z-20">
-      
+
       {/* Top Left Moon */}
       <FadeIn delay={0.1} x={-80} y={0} duration={0.9} className="absolute top-[4%] left-[1%] sm:left-[2%] md:left-[4%] w-[120px] sm:w-[160px] md:w-[210px] pointer-events-none">
         <img src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/moon_icon.11395d36.png" alt="Moon" className="w-full" />
@@ -33,8 +33,8 @@ export const AboutSection = () => {
           </h2>
         </FadeIn>
 
-        <AnimatedText 
-          text="With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!"
+        <AnimatedText
+          text="I build intelligent systems that work while you sleep. Combining modern web development with cutting-edge AI agents, I help businesses automate workflows, cut operational costs, and scale effortlessly."
           className="text-[#D7E2EA] font-medium text-center leading-relaxed max-w-[560px] text-[clamp(1rem,2vw,1.35rem)]"
         />
 

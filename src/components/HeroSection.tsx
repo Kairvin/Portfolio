@@ -28,7 +28,7 @@ export const HeroSection = () => {
       <div className="mt-auto flex justify-between items-end pb-7 sm:pb-8 md:pb-10 px-6 md:px-10 z-20 relative">
         <FadeIn delay={0.35} y={20} duration={0.8}>
           <p className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug text-[clamp(0.75rem,1.4vw,1.5rem)] max-w-[160px] sm:max-w-[220px] md:max-w-[260px]">
-            a 3d creator driven by crafting striking and unforgettable projects
+            an AI automation agency crafting intelligent web solutions and autonomous agents to scale your business.
           </p>
         </FadeIn>
 
@@ -39,7 +39,7 @@ export const HeroSection = () => {
 
       <FadeIn delay={0.6} y={30} duration={1} className="absolute top-[55%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-[360px] sm:w-[460px] md:w-[560px] lg:w-[680px]">
         <Magnet padding={200} strength={4} activeTransition="transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1)">
-          <img src="/Kairvin_avatar.png" alt="Kairvin 3D Avatar" className="w-full h-auto object-contain pointer-events-none drop-shadow-2xl" />
+          <img src="/Kairvin_avatar_2.png" alt="Kairvin 3D Avatar" className="w-full h-auto object-contain pointer-events-none drop-shadow-2xl" />
         </Magnet>
       </FadeIn>
     </section>
