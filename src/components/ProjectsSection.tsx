@@ -34,6 +34,7 @@ const projects = [
       col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85"
     }
   }
+
 ];
 
 const ProjectCard = ({ project, index, totalCards, progress }: { project: any, index: number, totalCards: number, progress: any }) => {
@@ -109,17 +110,21 @@ export const ProjectsSection = () => {
         </FadeIn>
       </div>
 
-      <div ref={containerRef} className="px-5 sm:px-8 md:px-10 relative ">
-        <div className="flex flex-col items-center">
+      <div ref={containerRef} className="px-5 sm:px-8 md:px-10 relative">
+        { }
+        <div className="flex flex-col items-center pb-[20vh]">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
               project={project}
               index={index}
-              totalCards={projects.length}
+              totalCards={projects.length + 1}
               progress={scrollYProgress}
             />
           ))}
+          {}
+          {}
+          <div className="h-screen w-full flex-shrink-0 pointer-events-none" aria-hidden="true" />
         </div>
       </div>
     </section>

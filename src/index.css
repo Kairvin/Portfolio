@@ -4,6 +4,7 @@
   --color-background: #0C0C0C;
   --color-primaryText: #D7E2EA;
   --font-sans: 'Kanit', sans-serif;
+  --font-condensed: 'Bebas Neue', sans-serif;
 }
 
 @layer base {
