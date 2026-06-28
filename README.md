@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# Kairvin - 3D Creator Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A stunning, highly interactive personal portfolio website for Kairvin, a 3D Creator. This landing page is designed to captivate visitors with modern web aesthetics, smooth scroll-driven animations, and a premium dark theme.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Hero Section:** Features a magnetic 3D avatar that follows the cursor and a gorgeous metallic text gradient.
+- **Scroll-Driven Animations:** Utilizes Framer Motion's `useScroll` and `useTransform` hooks to bind animations directly to the user's scroll position.
+- **Seamless Marquee:** Continuous dual-row marquee displaying a gallery of 3D renders.
+- **Scroll Text Reveal:** A custom-built text reveal effect in the About section that highlights characters as they enter the viewport.
+- **Sticky Project Stacking:** A highly custom project section where project cards smoothly scale down and stack on top of each other as you scroll down the page.
+- **Fluid Typography:** Uses CSS `clamp()` for perfectly responsive text scaling across all devices (Mobile, Tablet, Desktop).
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React 18](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-## Expanding the Oxlint configuration
+## 🏃‍♂️ Running Locally
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Kairvin/Portfolio.git
+   cd Portfolio
+   ```
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🎨 Design Details
+- **Theme:** Dark Mode (`#0C0C0C` background) with contrasting `#D7E2EA` primary text.
+- **Typography:** 'Kanit' sans-serif from Google Fonts.
+- **Responsiveness:** Fully responsive from mobile devices to ultra-wide displays.
